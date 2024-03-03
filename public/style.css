@@ -1,0 +1,90 @@
+h1{
+    position: relative;
+    left: 45%;
+    color: #22577E;
+}
+
+.post{
+    background-color: #ECFAFB;
+    position: relative;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.user{
+    font-style: italic;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.post-actions {
+    position: absolute;
+    bottom: 40%;
+    right: 5%;
+}
+
+.content{
+    padding-left: 15px;
+}
+
+.delbut{
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    /* border: navy; */
+    transition: background-color 0.6s ease-in-out;
+}
+
+.delbut:hover{
+    background-color: red;
+    color: white;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px 5px 0px 5px; 
+    margin: 10px;
+    font-size: 18px;
+    display: inline-block;
+    /* border: 2px dashed black; */
+    color: #396EB0;
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover{
+    /* background-color: red; */
+    transform: scale(1.1);
+}
+
+.submit{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: #396EB0 ;
+    color: white;
+    font-weight: 700;
+    transition: transform 0.4s ease-in;
+}
+
+.submit:hover{
+    transform: scale(1.1);
+}
+
+.new{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+.inp{
+    height: 30px;
+    width: auto;
+    font-size: 15px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
